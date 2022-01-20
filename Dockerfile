@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7-slim
 COPY ./src/app.py /deploy/
 COPY ./requirements.txt /deploy/
 COPY ./saved_models/model_rfc2.pickle /deploy/

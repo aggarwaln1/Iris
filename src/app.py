@@ -9,7 +9,7 @@ import pickle
 import os
 
 filename =r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\saved_models\model_rfc2.pickle'
-os.chdir(r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\src')
+#os.chdir(r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris')
 
 app= Flask(__name__, template_folder=r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\template')
 def transform(text_file_contents):
