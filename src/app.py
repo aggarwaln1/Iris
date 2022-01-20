@@ -8,10 +8,10 @@ import numpy as np
 import pickle
 import os
 
-filename =r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\saved_models\model_rfc.pickle'
-os.chdir(r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris')
+filename =r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\saved_models\model_rfc2.pickle'
+os.chdir(r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\src')
 
-app= Flask(__name__, template_folder='template')
+app= Flask(__name__, template_folder=r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\template')
 def transform(text_file_contents):
     return text_file_contents.replace("=", ",")
 

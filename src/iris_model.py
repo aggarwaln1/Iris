@@ -25,7 +25,7 @@ test_y =test.iloc[:,-1]
 rfc =RandomForestClassifier(n_estimators=500)
 rfc.fit(train_X, train_y)
 
-filename =r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\saved_models\model_rfc.pickle'
+filename =r'E:\Nidhi\MLOps training\MLOps_Code\Practice_ML\Iris\saved_models\model_rfc2.pickle'
 pickle.dump(rfc,open(filename,'wb'))
 
 load_model =pickle.load(open(filename,'rb'))
